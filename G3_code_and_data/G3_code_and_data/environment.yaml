@@ -1,0 +1,8 @@
+data_directory: "./data/"
+data_name: "mobility_dataset.csv"
+catalogue_name: "catalogue.csv"
+drop_columns: ["HHID", "PERSID", "VPLID","RitID","HH_VALID","P_VALID"]
+target_name: "KHVM"
+number_splits: 1
+test_size: 0.3
+random_state: 42
